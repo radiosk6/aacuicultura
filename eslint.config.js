@@ -1,8 +1,8 @@
-import vue from 'eslint-plugin-vue';
-import prettier from 'eslint-plugin-prettier';
-import { defineConfig } from 'eslint-define-config';
+const vue = require('eslint-plugin-vue');
+const prettier = require('eslint-plugin-prettier');
+const { defineConfig } = require('eslint-define-config');
 
-export default defineConfig({
+module.exports = defineConfig({
   root: true,
   env: {
     node: true,
